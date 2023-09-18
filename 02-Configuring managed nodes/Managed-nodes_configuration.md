@@ -1,5 +1,5 @@
 **Configuring managed nodes.**
-- Launch/select required no of servers (managed nodes)
+- Launch/select required no. of servers (managed nodes)
 - Use a key-pair to associate with your servers.
 - Log into your ansible control node using the key.pem that  was downloaded 
 - Make sure that you change the key permissions to 400
@@ -10,7 +10,7 @@
    $ ansible
 ```
 
-- Ansible Engine uses SSH Connection to connect and work with Manage nodes.
+- Ansible Engine uses SSH Connection to connect and work with managed nodes.
 - We can create SSH Connection in two ways:
      - a) Password Authentication
      - b) Password-less Authentication(This is with SSH Keys)
