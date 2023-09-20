@@ -33,7 +33,7 @@
 		® Change the owner to yourself, disable inheritance and delete all permissions.  
             	® Then grant yourself red and write access, and save the changes.    
 	      
-c. Again, go to settings, --> Command Palette, and type or select "Remote-SSH: Connect to Host"    
+      	c. Again, go to settings, --> Command Palette, and type or select "Remote-SSH: Connect to Host"    
         and then, select the host alias that you gave to the configuration file.    
         In the above example, host alias is ansible.   
    
