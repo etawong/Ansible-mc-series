@@ -1,6 +1,6 @@
 **Setting up remote ansible server**
-1. In vscode, make sure the "remote-SSH" and "Remote Development" extensions are installed.
-2. Configure remote ssh on vscode with user as ubuntu
+1. In vscode, make sure the "remote-SSH" and "Remote Development" extensions are installed.  
+2. Configure remote ssh on vscode with user as ubuntu  
    a. Click on settings, --> Command Palette, and type or select "Remote-SSH: Open SSH Configuration file",  
    then select *C:\users\username\.ssh\config*
    b. In the ansible configuration file, do the following:
