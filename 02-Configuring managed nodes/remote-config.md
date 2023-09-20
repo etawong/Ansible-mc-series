@@ -12,6 +12,25 @@
         User ubuntu #(default ubuntu user)
         IdentityFile path/to/private_key.pem
  ```
+    Example:
+```
+    #Ansible host
+    Host ansible
+        HostName 52.53.241.79
+        User ubuntu
+        IdentityFile D:/ansible-key/ansible-key.pem!
+```
+        Then close the file.
+        If you're using windows, make sure you disable inheritance on the private key file,  
+        and also make sure you are the only user that can read and write to the file. 
+			® Locate the file in Windows Explorer, right-click on it and select Properties.
+			® Navigate to the Security tab and click Advanced.
+			® Change the owner to yourself, disable inheritance and delete all permissions.
+            ® Then grant yourself red and write access, and save the changes.
+    c. Again, go to settings, --> Command Palette, and type or select "Remote-SSH: Connect to Host"  
+        and then, select the host alias that you gave to the configuration file.  
+        In the above example, host alias is ansible. 
+   
 3. Log into the remote server as ubuntu and switch user to ansible
 
         $ sudo su - ansible
