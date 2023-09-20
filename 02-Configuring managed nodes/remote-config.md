@@ -25,8 +25,8 @@
 
 	Then close the file.  
  
-If you're using windows, make sure you disable inheritance on the private key file,  
-and also make sure you are the only user that can read and write to the file.  
+	If you're using windows, make sure you disable inheritance on the private key file,  
+	and also make sure you are the only user that can read and write to the file.  
 
 		® Locate the file in Windows Explorer, right-click on it and select Properties.  
 		® Navigate to the Security tab and click Advanced.  
