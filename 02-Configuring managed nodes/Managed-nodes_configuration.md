@@ -35,7 +35,6 @@
 
       $ sudo systemctl restart sshd.service
 
-      $ sudo systemctl restart sshd
 
 - Test connectivity by providing a -k option to be prompted to enter the SSH password.
 
