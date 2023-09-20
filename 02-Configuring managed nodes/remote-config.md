@@ -7,10 +7,10 @@
    
    b. In the ansible configuration file, do the following:
 ```
-Host "alias name"
-    HostName ansible_server_IP
-    User ubuntu #(default ubuntu user)
-    IdentityFile path/to/private_key.pem
+    Host "alias name"
+        HostName ansible_server_IP
+        User ubuntu #(default ubuntu user)
+        IdentityFile path/to/private_key.pem
  ```
 3. Log into the remote server as ubuntu and switch user to ansible
 
