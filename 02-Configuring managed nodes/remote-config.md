@@ -13,9 +13,9 @@
         IdentityFile path/to/private_key.pem
  ```
 
-    
+   Example:
+   
 ```
-	Example:
     #Ansible host
     Host ansible
         HostName 52.53.241.79
